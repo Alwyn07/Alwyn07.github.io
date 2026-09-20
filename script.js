@@ -1,4 +1,1 @@
-const cursor=document.querySelector('.cursor');
-document.addEventListener('mousemove',e=>{if(cursor){cursor.style.left=e.clientX+'px';cursor.style.top=e.clientY+'px'}});
-document.querySelectorAll('a').forEach(a=>a.addEventListener('mouseenter',()=>document.body.classList.add('hovering')));
-document.querySelectorAll('a').forEach(a=>a.addEventListener('mouseleave',()=>document.body.classList.remove('hovering')));
+const io=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.12});document.querySelectorAll('.section,.case-study,.work-list article,.credential-card').forEach(el=>{el.style.opacity='0';el.style.transform='translateY(18px)';el.style.transition='opacity .7s ease,transform .7s ease';io.observe(el)});const style=document.createElement('style');style.textContent='.in{opacity:1!important;transform:none!important}';document.head.appendChild(style);

@@ -1,14 +1,19 @@
-# Alwyn Basil Eldho — Portfolio V2
+# ALWYN07 — Portfolio V3
 
-This version was rebuilt using publicly visible information from the owner's LinkedIn and GitHub profiles, with an original editorial/technical design inspired by the reference portfolio style.
+Personal portfolio for **Alwyn Basil Eldho**.
 
-## Sources used
-- LinkedIn: https://www.linkedin.com/in/alwyn-basil-eldho-8b0457384/
-- GitHub: https://github.com/Alwyn07
-- CampusFlow: https://github.com/Alwyn07/CampusFlow
+## Included
+- Editorial/technical dark portfolio layout inspired by the reference site's design principles, not copied content.
+- Personal portrait supplied by Alwyn as `assets/profile.jpg`.
+- Verified certificate assets supplied by Alwyn:
+  - NPTEL Elite — Discrete Mathematics — 77% — Jan–Apr 2026.
+  - FutureSkills Prime / NASSCOM / MeitY — Digital Application Fundamentals - STEM — Gold — issued 16 May 2026.
+  - Cambridge English Linguaskill Business — CEFR B2 — average 172 — issued 22 April 2026.
+- CampusFlow case study and selected projects.
+- LinkedIn, GitHub and email links.
 
 ## Deploy
-Replace the files in your `alwyn07.github.io` repository with `index.html`, `style.css`, and `script.js`, then commit to `main`. GitHub Pages will redeploy automatically.
+Replace the files in the root of `Alwyn07/Alwyn07.github.io` with the contents of this folder, preserving the `assets/` directory, then commit to `main`. GitHub Pages will redeploy automatically.
 
-## Notes
-Only publicly visible, attributable information was used. No phone numbers, addresses, or other sensitive identifiers were added.
+## Replace the photo later
+Replace `assets/profile.jpg` with the new image while keeping the filename the same.
