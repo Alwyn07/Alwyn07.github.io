@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="noise"></div>
   <header class="site-header">
     <a class="brand" href="#top">ALWYN<span>07</span></a>
     <nav>
@@ -31,13 +30,15 @@
           <div class="hero-actions"><a class="button" href="#work">EXPLORE WORK <span>↓</span></a><a class="text-link" href="https://github.com/Alwyn07" target="_blank" rel="noreferrer">GITHUB ↗</a></div>
         </div>
         <aside class="portrait-card">
-          <div class="portrait-frame"><img src="assets/profile.jpg" alt="Portrait of Alwyn Basil Eldho"></div>
+          <div class="portrait-frame">
+            <img class="portrait-image" src="assets/profile.jpg" alt="Alwyn Basil Eldho" loading="eager">
+          </div>
           <div class="portrait-meta"><span>ALWYN BASIL ELDHO</span><span>AI / BUILDER</span></div>
         </aside>
       </div>
     </section>
 
-    <section id="systems" class="section split-section reveal">
+    <section id="systems" class="section split-section">
       <div class="section-label"><span>02</span> THE APPROACH</div>
       <div>
         <h2>I learn by <em>building.</em></h2>
@@ -51,7 +52,7 @@
       </div>
     </section>
 
-    <section id="work" class="section reveal">
+    <section id="work" class="section">
       <div class="section-label"><span>03</span> SELECTED WORK</div>
       <article class="case-study featured">
         <div class="case-top"><span>01 / SYSTEM</span><span>AI · FULL STACK · OCR</span></div>
@@ -68,37 +69,34 @@
       </div>
     </section>
 
-    <section id="credentials" class="section split-section credentials reveal">
+    <section id="credentials" class="section split-section credentials">
       <div class="section-label"><span>04</span> CREDENTIALS</div>
       <div>
-        <h2>Proof of <em>learning.</em></h2>
-        <p class="large-copy">Selected verified credentials currently supplied for the portfolio. Each certificate can be opened for inspection.</p>
-        <div class="credential-list">
-          <article class="credential-card credential-featured">
-            <div class="credential-media"><img src="assets/nptel-discrete-mathematics.jpg" alt="NPTEL Elite certificate for Discrete Mathematics"></div>
-            <div class="credential-body"><span>NPTEL / IIT MADRAS · ELITE</span><h3>Discrete Mathematics</h3><p>Successfully completed the 12-week course with a consolidated score of <strong>77%</strong>.</p><small>Jan–Apr 2026 · 4 credits recommended</small><a href="assets/nptel-discrete-mathematics.jpg" target="_blank">VIEW CERTIFICATE ↗</a></div>
-          </article>
-          <article class="credential-card">
-            <div class="credential-media"><img src="assets/digital-application-fundamentals.jpg" alt="Gold certificate for Digital Application Fundamentals - STEM"></div>
-            <div class="credential-body"><span>FUTURESKILLS PRIME · NASSCOM / MEITY</span><h3>Digital Application Fundamentals — STEM</h3><p>Successfully cleared the assessment with a <strong>Gold</strong> category result.</p><small>Issued 16 May 2026 · Gold category: 70% and above</small><a href="assets/digital-application-fundamentals.jpg" target="_blank">VIEW CERTIFICATE ↗</a></div>
-          </article>
-          <article class="credential-card">
-            <div class="credential-media pdf-card"><span>PDF</span><small>CAMBRIDGE<br>LINGUASKILL</small></div>
-            <div class="credential-body"><span>CAMBRIDGE ENGLISH · LINGUASKILL BUSINESS</span><h3>English — CEFR B2</h3><p>Average score <strong>172</strong>. Skill results: Listening C1 (186), Reading B2 (162), Speaking B2 (167), Writing B2 (173).</p><small>Issued 22 April 2026 · Test venue: Muthoot Institute of Technology & Science</small><a href="assets/linguaskill-business.pdf" target="_blank">OPEN RESULT PDF ↗</a></div>
-          </article>
+        <h2>Learning, <em>documented.</em></h2>
+        <p class="large-copy">Selected credentials and formal learning records. Each item below is backed by a certificate or result document supplied for this portfolio.</p>
+        <div class="credential-card credential-feature">
+          <div class="credential-thumb"><img src="assets/nptel-discrete-mathematics.jpg" alt="NPTEL Elite certificate for Discrete Mathematics"></div>
+          <div class="credential-copy"><span>NPTEL · IIT MADRAS</span><strong>Discrete Mathematics</strong><small>Elite Certification · 77% · Jan—Apr 2026 · 12 weeks</small><a href="assets/nptel-discrete-mathematics.jpg" target="_blank" rel="noreferrer">VIEW CERTIFICATE ↗</a></div>
         </div>
-        <div class="credential-note">MORE CREDENTIALS → will be added when verified certificates or public LinkedIn credential entries are supplied.</div>
+        <div class="credential-card credential-feature">
+          <div class="credential-thumb"><img src="assets/digital-application-fundamentals.jpg" alt="Gold certificate for Digital Application Fundamentals - STEM"></div>
+          <div class="credential-copy"><span>FUTURESKILLS PRIME · NASSCOM</span><strong>Digital Application Fundamentals — STEM</strong><small>Gold Certification · Issued 16 May 2026</small><a href="assets/digital-application-fundamentals.jpg" target="_blank" rel="noreferrer">VIEW CERTIFICATE ↗</a></div>
+        </div>
+        <div class="credential-card credential-feature">
+          <div class="credential-thumb"><span>ENGLISH<br><b>B2</b></span></div>
+          <div class="credential-copy"><span>CAMBRIDGE ENGLISH</span><strong>Linguaskill Business</strong><small>CEFR B2 · Average 172 · Listening C1 · Issued 22 Apr 2026</small><a href="assets/linguaskill-business.pdf" target="_blank" rel="noreferrer">VIEW RESULT ↗</a></div>
+        </div>
       </div>
     </section>
 
-    <section id="about" class="section about reveal">
+    <section id="about" class="section about">
       <div class="section-label"><span>05</span> ABOUT</div>
-      <div class="about-grid"><div><h2>An engineering student.<br><em>A builder in progress.</em></h2></div><div><p>I am a B.Tech student developing a practical foundation across AI, software engineering and embedded systems. I prefer learning by turning concepts into working prototypes, platforms and experiments.</p><p>My public GitHub work includes CampusFlow, while my broader learning path spans Python, Java, web development, Git/GitHub, AI/ML and hardware prototyping.</p></div></div>
+      <div class="about-grid"><div><h2>An engineering student.<br><em>A builder in progress.</em></h2></div><div><p>I am a B.Tech student developing a practical foundation across AI, software engineering and embedded systems. I prefer learning by turning concepts into working prototypes, platforms and experiments.</p><p>My public GitHub work currently includes CampusFlow, while my broader learning path spans Python, Java, web development, Git/GitHub, AI/ML and hardware prototyping.</p></div></div>
     </section>
 
-    <section class="section currently reveal"><div class="section-label"><span>06</span> CURRENTLY</div><div class="current-row"><strong><i></i> BUILDING</strong><span>AI applications · academic systems · embedded prototypes</span><span>2026</span></div><div class="current-row"><strong><i></i> LEARNING</strong><span>AI / ML · software architecture · cloud · hardware integration</span><span>ONGOING</span></div></section>
+    <section class="section currently"><div class="section-label"><span>06</span> CURRENTLY</div><div class="current-row"><strong><i></i> BUILDING</strong><span>AI applications · academic systems · embedded prototypes</span><span>2026</span></div><div class="current-row"><strong><i></i> LEARNING</strong><span>AI / ML · software architecture · cloud · hardware integration</span><span>ONGOING</span></div></section>
 
-    <section id="connect" class="section connect reveal"><div class="section-label"><span>07</span> CONNECT</div><h2>Something worth<br><em>building?</em></h2><div class="connect-links"><a href="https://in.linkedin.com/in/alwyn-basil-eldho-8b0457384" target="_blank" rel="noreferrer">LINKEDIN ↗</a><a href="https://github.com/Alwyn07" target="_blank" rel="noreferrer">GITHUB ↗</a><a href="mailto:alwynbasileldho2007@gmail.com">EMAIL ↗</a></div></section>
+    <section id="connect" class="section connect"><div class="section-label"><span>07</span> CONNECT</div><h2>Something worth<br><em>building?</em></h2><div class="connect-links"><a href="https://in.linkedin.com/in/alwyn-basil-eldho-8b0457384" target="_blank" rel="noreferrer">LINKEDIN ↗</a><a href="https://github.com/Alwyn07" target="_blank" rel="noreferrer">GITHUB ↗</a><a href="mailto:alwynbasileldho2007@gmail.com">EMAIL ↗</a></div></section>
   </main>
   <footer><span>© 2026 ALWYN BASIL ELDHO</span><span>AI · SOFTWARE · SYSTEMS</span></footer>
   <script src="script.js"></script>
