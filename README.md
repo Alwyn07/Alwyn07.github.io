@@ -1,22 +1,14 @@
-# Alwyn Basil Eldho — Portfolio
+# Alwyn Basil Eldho — Portfolio V2
 
-A responsive, dark, engineering-focused personal portfolio built with plain HTML, CSS and JavaScript.
+This version was rebuilt using publicly visible information from the owner's LinkedIn and GitHub profiles, with an original editorial/technical design inspired by the reference portfolio style.
 
-## Run locally
-Open `index.html` in a browser.
+## Sources used
+- LinkedIn: https://www.linkedin.com/in/alwyn-basil-eldho-8b0457384/
+- GitHub: https://github.com/Alwyn07
+- CampusFlow: https://github.com/Alwyn07/CampusFlow
 
 ## Deploy
-### GitHub Pages
-1. Create a repository, e.g. `alwyn-portfolio`.
-2. Upload `index.html`, `style.css`, and `script.js`.
-3. In GitHub: Settings → Pages → Deploy from branch → `main` / root.
-4. Your site will receive a GitHub Pages URL.
+Replace the files in your `alwyn07.github.io` repository with `index.html`, `style.css`, and `script.js`, then commit to `main`. GitHub Pages will redeploy automatically.
 
-### Vercel
-Import the repository into Vercel. No build command is required.
-
-## Before publishing
-- Replace the placeholder GitHub URL with your actual GitHub profile.
-- Add your email if you want a direct contact link.
-- Add project GitHub/demo URLs as repositories become public.
-- Add a downloadable CV/resume when ready.
+## Notes
+Only publicly visible, attributable information was used. No phone numbers, addresses, or other sensitive identifiers were added.
